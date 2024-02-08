@@ -7,6 +7,7 @@
 a {
     color: #a0a3a7;
     text-decoration: none;
+    transition: .2s all ease-in-out;
 }
 
 html,
@@ -78,6 +79,10 @@ a:hover {
 }
 
 .header-menu .material-icons {
+    color: #fff;
+    display: flex;
+    justify-content: end;
+    transition: .2s all ease-in-out;
 }
 .header-btn__link {
     padding: 16px 24px;
@@ -87,10 +92,11 @@ a:hover {
     color: #242822;
     font-size: 14px;
     font-weight: 600;
-    transition: .2s alt ease-in-out;
+    transition: .2s all ease-in-out;
 }
 .header-btn__link:hover {
     transform: translateY(-3px);
+    color: black;
 }
 
 .main {
@@ -140,8 +146,9 @@ a:hover {
     justify-content: center;
 }
 #headerIcon {
-    display:none
-}
+    display: none;
+} 
+
 @media screen and (max-width: 992px) {
     .header-btn {
         display: none;
@@ -170,7 +177,6 @@ a:hover {
         background: rgba(0 0 0 /80%);
         flex-direction: column;
         align-items: center;
-        transition: .2s all ease-in-out;
         transform: translateX(-120%);
     }
    
